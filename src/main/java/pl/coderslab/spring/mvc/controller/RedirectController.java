@@ -11,23 +11,23 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class RedirectController {
 
 
-    @GetMapping( path = "/first", produces = "text/html; charset=UTF-8")
-    public String showFirst(){
+    @GetMapping(path = "/first", produces = "text/html; charset=UTF-8")
+    public String showFirst() {
 
         return "first";
 
     }
 
-    @GetMapping( path = "/third", produces = "text/html; charset=UTF-8")
-    public String showThird(Model model ,@RequestParam(required = false ) String info){
+    @GetMapping(path = "/third", produces = "text/html; charset=UTF-8")
+    public String showThird(Model model, @RequestParam(required = false) String info) {
 
-        model.addAttribute("info",info);
+        model.addAttribute("info", info);
 
         return "third";
     }
 
-    @GetMapping( path = "/second", produces = "text/html; charset=UTF-8")
-    public String redirect(Model model){
+    @GetMapping(path = "/second", produces = "text/html; charset=UTF-8")
+    public String redirect(Model model) {
 
         model.addAttribute("info", "przekierowano z First");
 
