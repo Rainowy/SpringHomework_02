@@ -19,6 +19,13 @@
 <c:if test="${not empty cart}"> <%--sprawdza czy lista nie jest pusta --%>
     <c:forEach items="${cart}" var="cartItem">
         <p>${cartItem}</p>
+        <form action="/cart/quantity" method="post">
+            <input type="number" name="quantity">
+            <input type="hidden" name="itemName" value="${cartItem.getProduct().getName()}">
+            <input type="submit" value="Zmień ilość">
+        </form>
+        <input type="button" onclick="location.href='/cart/remove?itemName=${cartItem.getProduct().getName()}';"
+               value="Kasuj"/>
     </c:forEach>
 </c:if>
 

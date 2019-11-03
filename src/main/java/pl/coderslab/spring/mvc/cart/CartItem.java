@@ -19,11 +19,14 @@ public class CartItem {
         this.quantity = quantity;
     }
 
+    public Product getProduct() {
+        return product;
+    }
+
     @Override
     public String toString() {
-        return "CartItem{" +
-                "product=" + product +
-                ", quantity=" + quantity +
-                '}';
+        return
+                product +
+                        ", quantity=" + quantity;
     }
 }

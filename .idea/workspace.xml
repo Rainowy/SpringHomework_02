@@ -10,13 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee962536-4f87-4f02-a464-74c86bb72ed1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/cart/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/cart/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/cart/CartItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/cart/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/showCart.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/welcomePage.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/cart/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/cart/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/cart/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/cart/CartItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/cart/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/cart/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/showCart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/showCart.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,17 +51,17 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1571" />
-          <entry key="jsp" value="580" />
-          <entry key="txt" value="134" />
+          <entry key="java" value="2799" />
+          <entry key="jsp" value="797" />
+          <entry key="txt" value="221" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1571" />
-          <entry key="JSP" value="580" />
-          <entry key="PLAIN_TEXT" value="134" />
+          <entry key="JAVA" value="2799" />
+          <entry key="JSP" value="797" />
+          <entry key="PLAIN_TEXT" value="221" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -74,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/controller/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1144">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="589">
+              <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,11 +84,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/cart/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="462">
+              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
               <folding>
                 <element signature="e#360#361#0" expanded="true" />
                 <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,13 +99,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/cart/CartItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="616">
+              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
               <folding>
                 <element signature="e#284#285#0" expanded="true" />
                 <element signature="e#315#316#0" expanded="true" />
                 <element signature="e#360#361#0" expanded="true" />
                 <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#427#428#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,7 +116,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/cart/Cart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
+            <state relative-caret-position="611">
               <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -122,36 +124,36 @@
                 <element signature="e#567#568#0" expanded="true" />
                 <element signature="e#615#616#0" expanded="true" />
                 <element signature="e#647#648#0" expanded="true" />
-                <element signature="e#698#699#0" expanded="true" />
-                <element signature="e#717#718#0" expanded="true" />
-                <element signature="e#788#789#0" expanded="true" />
-                <element signature="e#811#812#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/cart/CartController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="677">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#691#692#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
+                <element signature="e#778#779#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/cart/CartController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="611">
+              <caret line="83" column="34" lean-forward="true" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/showCart.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="704">
+              <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -219,13 +221,13 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/workers.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/workers.txt" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/cart/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/cart/CartItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/cart/Cart.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/welcomeCart.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/welcomePage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/cart/CartController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/cart/Product.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/showCart.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/cart/CartController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/cart/CartItem.java" />
       </list>
     </option>
   </component>
@@ -251,7 +253,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
     <option name="y" value="25" />
-    <option name="width" value="1280" />
+    <option name="width" value="1706" />
     <option name="height" value="1415" />
   </component>
   <component name="ProjectView">
@@ -381,7 +383,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572787038441" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572808879818" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -486,7 +488,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572766481549</updated>
-      <workItem from="1572766488506" duration="15411000" />
+      <workItem from="1572766488506" duration="33366000" />
     </task>
     <task id="LOCAL-00001" summary="Ex1 done.">
       <created>1572769025987</created>
@@ -530,14 +532,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572781522151</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Ex5 not finished yet. TODO. increase quantity.">
+      <created>1572787186904</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1572787186904</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15411000" />
+    <option name="totallyTimeSpent" value="33366000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1280" height="1415" extended-state="4" />
+    <frame x="0" y="25" width="1706" height="1415" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -546,7 +555,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23581848" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22710843" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Application Servers" weight="0.3299611" />
       <window_info anchor="bottom" id="Spring" />
@@ -558,7 +567,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299611" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3299611" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -586,7 +595,8 @@
     <MESSAGE value="Ex2 done." />
     <MESSAGE value="Ex3 done." />
     <MESSAGE value="Ex3 finally done." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ex3 finally done." />
+    <MESSAGE value="Ex5 not finished yet. TODO. increase quantity." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ex5 not finished yet. TODO. increase quantity." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -665,27 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1144">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/cart/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/third.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -700,41 +689,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/cart/Cart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/workers.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/cart/CartItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -745,24 +703,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/cart/CartController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="589">
+          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/cart/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/cart/CartItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+          <folding>
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/showCart.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="704">
+          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/cart/Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/spring/mvc/cart/CartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="83" column="34" lean-forward="true" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
