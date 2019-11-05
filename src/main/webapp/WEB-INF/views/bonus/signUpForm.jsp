@@ -10,6 +10,26 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <title>Private Account </title>
+<%--<script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>--%>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<%--<script type="text/javascript">--%>
+<%--$('input').on('click', function () {--%>
+
+<%--$.ajax({--%>
+<%--type:'POST',--%>
+<%--url :"/account/showCookie",--%>
+<%--success: function(data) {--%>
+<%--console.log('success',data);--%>
+<%--},--%>
+<%--error:function(exception){alert('Exeption:'+exception);}--%>
+<%--});--%>
+<%--// e.preventDefault();--%>
+<%--});--%>
+
+
+<%--</script>--%>
+<script type="text/javascript" src="<c:url value="/resources/js/invokePOST.js" />"></script>
+
 </head>
 <body>
 
@@ -38,5 +58,9 @@
         Key = ${entry.key}, value = ${entry.value}<br>
     </c:forEach>
 </c:if>
+
+<input type="button" value="Submit">
+
+
 </body>
 </html>

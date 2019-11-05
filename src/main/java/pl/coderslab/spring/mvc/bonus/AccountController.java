@@ -55,4 +55,12 @@ public class AccountController {
 
         return "redirect:form";
     }
+
+    @PostMapping("/showCookie")
+//    @GetMapping("/showCookie")
+    @ResponseBody
+    public String cookie() {
+
+        return "cookie to";
+    }
 }
