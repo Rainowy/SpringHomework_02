@@ -28,12 +28,12 @@
 
 
 <%--</script>--%>
-<script type="text/javascript" src="<c:url value="/resources/js/invokePOST.js" />"></script>
+<%--<script type="text/javascript" src="<c:url value="/resources/js/invokePOST.js" />"></script>--%>
 
 </head>
 <body>
 
-<form:form method="POST" action="/account/addAccount" modelAttribute="account" id="accountForm">
+<form:form method="POST" action="/account/addAccount" modelAttribute="wariat" id="accountForm">
     <form:label path="name">Name</form:label>
     <form:input path="name"/>
 

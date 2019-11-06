@@ -7,8 +7,12 @@
     <groupId>pl.coderslab</groupId>
     <artifactId>SpringHomework_02</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>SubmitFormAjax</module>
+        <module>TomcatTest</module>
+    </modules>
 
-    <packaging>war</packaging>
+    <packaging>pom</packaging>
 
     <properties>
         <failOnMissingWebXml>false</failOnMissingWebXml>

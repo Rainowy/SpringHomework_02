@@ -5,6 +5,7 @@ import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import java.util.ArrayList;
@@ -25,9 +26,10 @@ public class AccountController {
 
     @GetMapping("/form")
 
-    public String showPrivateForm(Model model) {
+    public String showPrivateForm(@ModelAttribute("wariat") Account account,
+                                  Model model) {
         List<String> accountType = Arrays.asList("Private", "Corporate");
-        model.addAttribute("account", new Account());
+//        model.addAttribute("account", new Account());
         model.addAttribute("accountType", accountType);
 
         /** Odebranie przekierowanych atrybutów(RedirectAttributes flash) **/
@@ -42,7 +44,7 @@ public class AccountController {
     }
 
     @PostMapping("/addAccount")
-    public String submit(@ModelAttribute("account") Account account,
+    public String submit(Account account,
                          BindingResult result,
                          RedirectAttributes attributes) { //jeżeli przekierowujemy = konieczne atrybuty
         if (result.hasErrors()) return "error";
@@ -56,11 +58,18 @@ public class AccountController {
         return "redirect:form";
     }
 
-    @PostMapping("/showCookie")
+    //    @PostMapping("/showCookie")
 //    @GetMapping("/showCookie")
-    @ResponseBody
-    public String cookie() {
+//    @ResponseBody
+//    public String cookie(@RequestParam(required = false) String value) {
+    public ModelAndView cookie(ModelMap model) {
+        model.addAttribute("attribute", "redirectWithRedirectPrefix");
+        return new ModelAndView("redirect:form", model);
+//        System.out.println("AKTYWUJ");
+//        System.out.println(value);
 
-        return "cookie to";
+//        return "first";
+//      RedirectToAction("Index", "Home");
+
     }
 }
