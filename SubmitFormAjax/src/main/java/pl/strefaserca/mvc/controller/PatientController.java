@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 //@RequestMapping("/account")
 public class PatientController {
 
-    @GetMapping("/")
+    //    @GetMapping("/")
     public String patientForm() {
         return "patientForm";
     }

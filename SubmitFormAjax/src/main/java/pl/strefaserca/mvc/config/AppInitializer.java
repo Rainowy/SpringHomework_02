@@ -1,9 +1,15 @@
 package pl.strefaserca.mvc.config;
 
+import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
+
+//package pl.strefaserca.mvc.config;
+
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.servlet.DispatcherServlet;
+import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
+import pl.strefaserca.mvc.config.Config;
 
 import javax.servlet.FilterRegistration;
 import javax.servlet.ServletContext;
@@ -26,3 +32,20 @@ public class AppInitializer implements WebApplicationInitializer {
         fr.addMappingForUrlPatterns(null, true, "/*");
     }
 }
+//public class MyWebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
+//
+//    @Override
+//    protected Class<?>[] getRootConfigClasses() {
+//        return new Class[] {};
+//    }
+//
+//    @Override
+//    protected Class<?>[] getServletConfigClasses() {
+//        return new Class[] { Config.class };
+//    }
+//
+//    @Override
+//    protected String[] getServletMappings() {
+//        return new String[] { "/" };
+//    }
+//}

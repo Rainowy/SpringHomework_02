@@ -26,33 +26,75 @@
 
                 //Prevent default submission of form
                 e.preventDefault();
+                -+
 
-                //Remove all errors
-                $('input').next().remove();
+                    //Remove all errors
+                    $('input').next().remove();
 
                 $.post({
                     url: 'savePatient',
                     data: $('form[name=patientForm]').serialize(),
                     success: function (res) {
 
+                        WE
                         if (res.validated) {
                             $('#resultContainer pre code').text(JSON.stringify(res.patient));
                             $('#resultContainer').show();
+                        } else {
+                            //Set error messages
+                            $.each(res.errorMessages, function (key, value) {
+                                $('input[name=' + key + ']').after('<span class="error">' + value + '</span>');
+                            });
+
                         }
-
-
                     }
-                }
+
+                })
 
             })
-
-        })
 
 
     </script>
 
 </head>
 <body>
-<h1>hello</h1>
+<h1>Employee Input Form</h1>
+<hr/>
+
+<form action="savePatient" method="post" name="patientForm">
+    <table>
+        <tr>
+            <td>First Name</td>
+            <td><input name="firstName" type="text"/></td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td><input name="lastName" type="text"/></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input name="email" type="text"/></td>
+        </tr>
+        <tr>
+            <td>Designation</td>
+            <td><input name="visitType" type="text"/></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button type="submit">Submit</button>
+            </td>
+        </tr>
+    </table>
+</form>
+
+<!-- Result Container  -->
+<div id="resultContainer" style="display: none;">
+    <hr/>
+    <h4 style="color: green;">JSON Response From Server</h4>
+    <pre style="color: green;">
+    <code></code>
+   </pre>
+</div>
 </body>
 </html>

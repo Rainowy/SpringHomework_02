@@ -9,5 +9,8 @@
         <module name="SubmitFormAjax" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="TomcatTest" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

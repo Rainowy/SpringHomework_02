@@ -11,7 +11,7 @@ public class Patient {
     private String lastName;
 
     @NotEmpty(message = "Wprowadź email")
-    private String mail;
+    private String email;
 
     @NotEmpty(message = "Wprowadź rodzaj wizyty")
     private String visitType;
@@ -32,12 +32,12 @@ public class Patient {
         this.lastName = lastName;
     }
 
-    public String getMail() {
-        return mail;
+    public String getEmail() {
+        return email;
     }
 
-    public void setMail(String mail) {
-        this.mail = mail;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public String getVisitType() {

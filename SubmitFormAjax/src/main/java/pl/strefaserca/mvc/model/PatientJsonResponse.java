@@ -31,4 +31,13 @@ public class PatientJsonResponse {
     public void setErrorMessages(Map<String, String> errorMessages) {
         this.errorMessages = errorMessages;
     }
+
+    @Override
+    public String toString() {
+        return "PatientJsonResponse{" +
+                "patient=" + patient +
+                ", validated=" + validated +
+                ", errorMessages=" + errorMessages +
+                '}';
+    }
 }
